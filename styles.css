@@ -1,0 +1,58 @@
+body {
+  font: arial;
+  background-color: black;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.key-elements {
+  text-align: center;
+  margin-top: 50px;
+}
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 3px solid white;
+  padding: 5px;
+  font-size: 16px;
+}
+.Submit-button {
+  color: white;
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  border: 3px solid white;
+  background-color: #33b249;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.Submit-button:hover {
+  background-color: #4aa75a;
+  color: black;
+  transition: 0.5ms;
+}
+.js-todo-list-style {
+  margin-top: 50px;
+  margin-left: 100px;
+  color: white;
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.Delete-button-style {
+  color: white;
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  border: 3px solid white;
+  background-color: rgb(255, 0, 0);
+  font-size: 16px;
+  align-items: center;
+}
