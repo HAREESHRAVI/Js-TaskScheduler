@@ -3,6 +3,7 @@ body {
   background-color: black;
 }
 h1 {
+  font-size: 50px;
   color: white;
   text-align: center;
   margin-top: 50px;
@@ -12,21 +13,22 @@ h1 {
   margin-top: 50px;
 }
 input {
-  width: 300px;
-  height: 30px;
+  width: 400px;
+  height: 40px;
   border-radius: 5px;
   border: 3px solid white;
   padding: 5px;
-  font-size: 16px;
+  font-size: 20px;
+  margin-right: 20px;
 }
 .Submit-button {
   color: white;
   width: 100px;
-  height: 45px;
+  height: 55px;
   border-radius: 5px;
   border: 3px solid white;
   background-color: #33b249;
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 20px;
 }
 .Submit-button:hover {
@@ -35,6 +37,7 @@ input {
   transition: 0.5ms;
 }
 .js-todo-list-style {
+  font-size: 25px;
   margin-top: 50px;
   margin-left: 100px;
   color: white;
@@ -52,6 +55,13 @@ input {
   height: 45px;
   border-radius: 5px;
   border: 3px solid white;
+  background-color: rgb(239, 76, 76);
+  font-size: 16px;
+  align-items: center;
+}
+
+.Delete-button-style:hover {
+  color: black;
   background-color: rgb(255, 0, 0);
   font-size: 16px;
   align-items: center;
